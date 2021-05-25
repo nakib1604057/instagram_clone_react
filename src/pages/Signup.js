@@ -38,6 +38,7 @@ const Signup = () => {
           fullName: userFullName.toLowerCase(),
           emailAddress: userEmail.toLowerCase(),
           following: [],
+          followers: [],
           dateCreated: Date.now(),
         });
         history.push(ROUTES.DASHBOARD);

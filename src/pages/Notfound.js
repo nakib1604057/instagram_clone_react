@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 const Notfound = () => {
   useEffect(() => {
@@ -6,7 +7,8 @@ const Notfound = () => {
   }, []);
   return (
     <div className="bg-gray-background">
-      <div className="mx-auth max-w-screen-lg">
+      <Header />
+      <div className="mx-auto max-w-screen-lg">
         <p className="text-center text-2xl"> Not Found!</p>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Skeleton from "react-loading-skeleton";
 const User = ({ fullName, userName }) => {
   return userName || fullName ? (
     <Link
-      to={`/profile/${userName}`}
+      to={`/p/${userName}`}
       className="grid grid-cols-4 gap-4 mb-6 items-center"
     >
       <div className="flex item-center justify-between col-span-1">
